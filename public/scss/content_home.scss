@@ -1,0 +1,41 @@
+.content-home{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  .title-h{
+     text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(93,93,93);
+    margin: 0;
+  }
+  div{
+    .item-content-home{
+      text-align: center;
+      margin-top: 40px;
+      span{
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 600;
+      }
+      h3{
+        font-size: 20px;
+        font-weight: 600;
+
+      }
+      img{
+        width: 100%;
+      }
+      .des-line-1-h{
+        color: rgb(56,56,56);
+        margin-bottom: 0;
+        line-height: 24px;
+      }
+      .des-line-2-h{
+        margin: 0 0 10px 0;
+        color: rgb(177,177,177);
+
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.support{
+  position: fixed;
+  bottom: 102px;
+  right: 10px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #0079c8;
+  border: none;
+  font-size: 18px;
+  span{
+    color: white;
+  }
+  i{
+    color: rgb(144,204,0);
+    margin-right: 5px;
+  }
+}
