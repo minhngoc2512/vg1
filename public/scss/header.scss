@@ -1,0 +1,141 @@
+$color-nav: rgb(0, 121, 200);
+$color-white: #ffff;
+$color-nav-hover: rgb(40, 86, 173);
+$color-border-menu-item: #cccc;
+.menu-bar {
+  background-color: $color-nav;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 0;
+  z-index: 5;
+}
+
+.form-user {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  .title-form {
+    background-color: $color-white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    #login-register {
+      margin-left: 20px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+      i {
+        color: green;
+      }
+    }
+  }
+  form {
+    width: 80%;
+    float: right;
+    border-radius: 5px;
+    background-color: $color-white;
+    margin-top: 20px;
+    display: block;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    .arrow-up{
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 21px solid $color-white;
+      top: -15px;
+      right: 50px;
+    }
+    .btn-submit-form {
+      margin-bottom: -5px;
+      margin-left: -5px;
+      margin-right: -5px;
+      background-color: #cccccc;
+      padding: 10px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      center input {
+        background-color: $color-nav;
+        border: none;
+        color: $color-white;
+        font-weight: 600;
+        width: 100px;
+        border-radius: 5px;
+      }
+    }
+    .password-manage {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      div {
+        text-align: right;
+        flex: 1;
+      }
+    }
+    .clearfix {
+      span {
+        text-align: right;
+        font-weight: 600;
+      }
+      input {
+        margin-top: 5px;
+        border-radius: 2px;
+        border: 1px solid $color-border-menu-item;
+        background-color: $color-white;
+      }
+    }
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: $color-white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: $color-nav-hover;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background-color: $color-nav-hover
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid $color-border-menu-item;
+  a {
+    color: blue;
+  }
+}
+
+//.input {
+//  width: 100%;
+//  height: 20%;
+//  .input2{
+//    background-color: red;
+//  }
+//}
+//
+//.button{
+//  @extend .input;
+//  border: 2px;
+//}
+//@function getWidth($width){
+//  @return ($width / 2)px;
+//}
+//
+//@mixin demo_mixin($color) {
+//    .mixin_demo{
+//      background: $color;
+//      width: getWidth(100);
+//    }
+//}
+//
+//@include demo_mixin(#cccc)
